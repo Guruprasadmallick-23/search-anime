@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.searchAreaParent{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem 1rem;
+  gap: 1rem;
+  background-image: url('../assets/background.jpg');
+  padding: 5rem 1rem;
+  color: white;
+}
+.searchMain{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  justify-content: center;
+}
+.detailParent{
+  margin-top: 2rem;
+}
+.backnextBtn{
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+.animeMain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem;
+  width: 90%;
+}
+.detailarea{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.favourite{
+  display: flex;
+  align-items: center;
+}
+.animeParent{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+border: 1px solid grey;
+margin: 1rem;
+}
+.arrow{
+border-left: 1px solid grey;
+padding: 1rem;
+}
